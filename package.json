@@ -1,16 +1,16 @@
 {
-	"name"    : "x-middleware-util",
-	"version" : "1.0.0",
-	"dependencies" : {
-		"x-common" : "1.x.x"
-	},
-	"devDependencies":{
-		"x-publish": "1.x.x",
-		"vows"     : "latest"
-	},
-	"main" : "index.js",
-	"scripts": {
-		"prepublish": "./node_modules/x-publish/scripts/prepublish.sh",
-		"test"       : "vows ./test/*.test.js"
-	}
+  "name": "x-middleware-util",
+  "version": "1.0.1",
+  "dependencies": {
+    "x-common": "1.x.x"
+  },
+  "devDependencies": {
+    "x-publish": "1.x.x",
+    "vows": "latest"
+  },
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "./node_modules/x-publish/scripts/prepublish.sh",
+    "test": "vows ./test/*.test.js"
+  }
 }
