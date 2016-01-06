@@ -2,7 +2,7 @@
 	"name"    : "x-middleware-util",
 	"version" : "1.0.0",
 	"dependencies" : {
-		"x-common"               : "1.x.x"
+		"x-common" : "1.x.x"
 	},
 	"devDependencies":{
 		"x-publish": "1.x.x",
